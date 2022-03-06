@@ -1,0 +1,27 @@
+/* Chứa các biến dùng chung. Cần học thuộc vì trong này có nhiều biến dùng chung thường dùng */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,400;1,500&display=swap');
+html{
+    font-family: 'Playfair Display', serif;
+
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+}
+
+h3{
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+ul{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #c70f0f;
+}

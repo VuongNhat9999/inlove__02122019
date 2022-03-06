@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* Chứa các biến dùng chung. Cần học thuộc vì trong này có nhiều biến dùng chung thường dùng */
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,400;1,500&display=swap");
+html {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+h3 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #c70f0f;
+}
+
+/* vùng đầu trang */
+.header__image--top, .heder__image--top--01 {
+  height: 100%;
+  width: 100%;
+}
+
+.header__img {
+  height: 600px;
+  width: 100%;
+  display: block;
+}
+
+.header {
+  position: relative;
+}
+
+.header__text {
+  position: absolute;
+  top: 23%;
+  left: 30%;
+  color: #f0f31c;
+  font-size: 5.5rem;
+}
+
+.btn__top, .header__text--01 {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header__img {
+    height: 350px;
+  }
+  .btn__top, .header__text--01 {
+    display: block;
+  }
+  .header__text--01 {
+    position: absolute;
+    top: 13px;
+    right: 25px;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .header__image--01 {
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+  .btn__top {
+    background-color: #f9e9b0;
+    border: 1px solid;
+    font-size: 1.6rem;
+    top: 114px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border-radius: 10px;
+    width: 160px;
+    height: 48px;
+    position: absolute;
+    color: #c70f0f;
+  }
+  .header__text {
+    position: absolute;
+    top: 42px;
+    left: 36px;
+    color: #f0f31c;
+    font-size: 3.5rem;
+  }
+}
+
+/* Vùng nội dung */
+.content {
+  background-color: #fff3f3;
+}
+
+.content__text--01 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 4rem;
+  color: crimson;
+  padding-bottom: 20px;
+}
+
+.content__image--01 {
+  display: block;
+  height: 200px;
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+.img__01 {
+  height: 100%;
+  width: 100%;
+}
+
+.content__text--02 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 0 10px;
+  color: brown;
+  font-family: 'Rubik', sans-serif;
+}
+
+.content__img--03 {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aye {
+  color: red;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .content {
+    background-color: #fff3f3;
+  }
+  .content__text--01 {
+    font-size: 2rem;
+  }
+  /* .content__img--link{
+        height: 300px;
+        display: block;
+    } */
+  .cnt--img {
+    height: 100%;
+    width: 100%;
+  }
+  .row {
+    margin: 0;
+  }
+  .content__image--01 {
+    display: block;
+    height: 200px;
+    width: 170px;
+    margin-left: 8px;
+  }
+  .img__01 {
+    height: 100%;
+    width: 100%;
+  }
+  .content__text--02 {
+    font-size: 2.2rem;
+    margin: 0 10px;
+  }
+}
+
+/* vùng chân trang */
+.footer {
+  border-top: 1px solid #000;
+  height: auto;
+  text-align: center;
+  background-color: #fff3f3;
+}
+
+.footer__list {
+  font-size: 1.4rem;
+  color: #ccc;
+  padding: 15px 0;
+}
+/*# sourceMappingURL=main.css.map */

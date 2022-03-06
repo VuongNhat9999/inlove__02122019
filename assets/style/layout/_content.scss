@@ -1,0 +1,83 @@
+/* Vùng nội dung */
+.content{
+    background-color: #fff3f3; 
+}
+
+.content__text--01{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 4rem;
+    color: crimson;
+    padding-bottom: 20px;
+}
+
+.content__image--01{
+    display: block;
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+
+}
+.img__01{
+    height: 100%;
+    width: 100%;
+}
+
+.content__text--02{
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 0 10px;
+    color: brown;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content__img--03{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.aye{
+    color: red;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .content{
+        background-color: #fff3f3;
+    }
+    .content__text--01{
+
+        font-size: 2rem;
+
+    }
+
+    /* .content__img--link{
+        height: 300px;
+        display: block;
+    } */
+    .cnt--img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .row{
+        margin: 0;
+    }
+
+    .content__image--01{
+        display: block;
+        height: 200px;
+        width: 170px;
+        margin-left: 8px;
+
+    }
+    .img__01{
+        height: 100%;
+        width: 100%;
+    }
+    .content__text--02{
+        font-size: 2.2rem;
+        margin: 0 10px;
+    }
+   
+}

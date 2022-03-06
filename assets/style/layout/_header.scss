@@ -1,0 +1,77 @@
+/* vùng đầu trang */
+.header__image--top, .heder__image--top--01{
+    height: 100%;
+    width: 100%;
+}
+.header__img{
+    height: 600px;
+    width: 100%;
+    display: block;
+}
+
+.header{
+    
+    position: relative;
+}
+.header__text {
+    position: absolute;
+    top: 23%;
+    left: 30%;
+    color: #f0f31c;
+    font-size: 5.5rem;
+}
+
+.btn__top, .header__text--01{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .header__img{
+        height: 350px;
+    }
+
+    .btn__top, .header__text--01{
+        display: block;
+    }
+    
+
+    .header__text--01{
+        position: absolute;
+        top: 13px;
+        right: 25px;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .header__image--01{
+
+        display: block;
+        width: 200px;
+        height:200px;
+    }
+    .btn__top {
+        background-color: #f9e9b0;
+        border: 1px solid;
+        font-size: 1.6rem;
+        top: 114px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 10px;
+        width: 160px;
+        height: 48px;
+        position: absolute;
+        color: #c70f0f;
+
+    }
+    
+
+    .header__text {
+        position: absolute;
+        top: 42px;
+        left: 36px;
+        color: #f0f31c;
+        font-size: 3.5rem;
+    }
+
+    
+}
